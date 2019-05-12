@@ -1,0 +1,29 @@
+{
+  "name": "tradecx-api",
+  "version": "1.0.0",
+  "description": "NPM implementation of the API",
+  "main": "dev.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TradeCX/API.git"
+  },
+  "keywords": [
+    "api",
+    "tradecx",
+    "crypto"
+  ],
+  "author": "victory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TradeCX/API/issues"
+  },
+  "homepage": "https://github.com/TradeCX/API#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1"
+  }
+}
