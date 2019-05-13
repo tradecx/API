@@ -2,9 +2,6 @@ let request = require('request'),
     crypto = require('crypto'),
     API = {}, URL = 'https://tradecx.io/api/';
 
-API.accessKey = '';
-API.secretKey = '';
-
 // Non-Private API Calls
 
 API.info = (callback) => {
