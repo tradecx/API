@@ -2,7 +2,7 @@
   "name": "tradecx-api",
   "version": "1.0.0",
   "description": "NPM implementation of the API",
-  "main": "dev.js",
+  "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
