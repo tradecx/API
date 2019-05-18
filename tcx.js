@@ -90,7 +90,6 @@ API.depositAddress = (currency, callback) => {
     API.createSignature('/api/deposit_address', 'GET', true, '&currency=' + currency, (hash, timestamp) => {
         API.get(URL + 'deposit_address?access_key=' + API.accessKey + '&currency=' + currency + '&tonce=' + timestamp + '&signature=' + hash, (result) => { if (callback) callback(result); }, true);
     });
-
 };
 
 API.findOrder = (id, callback) => {
